@@ -1,0 +1,22 @@
+{
+  "name": "Spotcast-Alexa",
+  "version": "1.0.0",
+  "description": "Alexa skill to play Spotify on Chromecast devices",
+  "main": "index.js",
+  "author": "Matt Langlois",
+  "contributors": [ "Joe Dempsey" ],
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^4.2.3",
+    "bluebird": "^3.5.5",
+    "castv2-client": "^1.2.0",
+    "express": "^4.17.1",
+    "lame": "^1.2.4",
+    "libspotify": "git+https://github.com/FylmTM/node-libspotify.git",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fletchto99/spotcast-alexa.git"
+  }
+}
